@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141f2a" />
+      <stop offset="40%" stop-color="#1a2b3c" />
+      <stop offset="80%" stop-color="#243444" />
+      <stop offset="100%" stop-color="#101820" />
+    </linearGradient>
+    <linearGradient id="goldLight" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7" stop-opacity="0.9" />
+      <stop offset="25%" stop-color="#dfd2b8" stop-opacity="0.5" />
+      <stop offset="70%" stop-color="#9c8059" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#1c2a38" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="woodTone" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#664d2d" />
+      <stop offset="50%" stop-color="#84663c" />
+      <stop offset="100%" stop-color="#553f24" />
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#fff9ea" stop-opacity="0.8" />
+      <stop offset="30%" stop-color="#dccbb0" stop-opacity="0.4" />
+      <stop offset="70%" stop-color="#9c8059" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#1c2a38" stop-opacity="0" />
+    </radialGradient>
+    <filter id="softBlur">
+      <feGaussianBlur stdDeviation="15" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1920" height="1080" fill="url(#bgGrad)" />
+
+  <!-- Sacred Ambient Light Glow -->
+  <circle cx="960" cy="360" r="550" fill="url(#sunGlow)" filter="url(#softBlur)" />
+
+  <!-- Modern Church Architectural Lines (Ceiling Beams & Acoustic Slats) -->
+  <g opacity="0.18">
+    <path d="M0,0 L960,320 L1920,0" stroke="#f3efe8" stroke-width="2" fill="none" />
+    <path d="M0,80 L960,340 L1920,80" stroke="#f3efe8" stroke-width="1.5" fill="none" />
+    <path d="M0,160 L960,360 L1920,160" stroke="#f3efe8" stroke-width="1" fill="none" />
+    <path d="M0,240 L960,380 L1920,240" stroke="#f3efe8" stroke-width="1" fill="none" />
+  </g>
+
+  <!-- Central Modern Cross (Minimalist Serene Lineage) -->
+  <g transform="translate(960, 360)">
+    <!-- Radiant Light Rays behind Cross -->
+    <polygon points="0,-250 -400,600 400,600" fill="url(#goldLight)" opacity="0.35" />
+    
+    <!-- Vertical Cross Beam -->
+    <rect x="-10" y="-180" width="20" height="420" rx="3" fill="#dfd2b8" opacity="0.95" />
+    <!-- Horizontal Cross Beam -->
+    <rect x="-90" y="-80" width="180" height="18" rx="3" fill="#dfd2b8" opacity="0.95" />
+    <!-- Cross Core Accent -->
+    <circle cx="0" cy="-71" r="5" fill="#ffffff" />
+  </g>
+
+  <!-- Modern Sanctuary Stage Platform (Warm Oak Acoustic Texture) -->
+  <polygon points="150,1080 350,780 1570,780 1770,1080" fill="url(#woodTone)" opacity="0.4" />
+  <line x1="350" y1="780" x2="1570" y2="780" stroke="#c8b394" stroke-width="3" opacity="0.6" />
+
+  <!-- Subtle Seating Geometry / Modern Clean Aesthetics -->
+  <g opacity="0.12">
+    <ellipse cx="960" cy="920" rx="650" ry="120" stroke="#ffffff" stroke-width="1.5" fill="none" />
+    <ellipse cx="960" cy="970" rx="750" ry="140" stroke="#ffffff" stroke-width="1.5" fill="none" />
+    <ellipse cx="960" cy="1020" rx="850" ry="160" stroke="#ffffff" stroke-width="1.5" fill="none" />
+  </g>
+
+  <!-- Foreground Vignette -->
+  <rect width="1920" height="1080" fill="url(#bgGrad)" opacity="0.3" mix-blend-mode="multiply" />
+</svg>

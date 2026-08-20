@@ -1,0 +1,13 @@
+{
+  "name": "kafook-church-website",
+  "version": "1.0.0",
+  "description": "五旬節聖潔會迦福堂 官方網站試作版 (靜謐現代風格)",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  },
+  "keywords": ["church", "kafook", "hongkong", "modern", "serene"],
+  "author": "Ka Fook Church Technical Ministry",
+  "license": "ISC"
+}

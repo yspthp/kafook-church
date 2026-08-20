@@ -1,0 +1,129 @@
+/**
+ * 迦福堂 Ka Fook Pentecostal Holiness Church
+ * 響應式佈局樣式 (Responsive Styles)
+ */
+
+@media (max-width: 992px) {
+  .hero-title {
+    font-size: 2.8rem;
+  }
+  
+  .hero-title span {
+    font-size: 1.2rem;
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .schedule-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    divide-x: none;
+  }
+
+  .schedule-item {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--kf-border-light);
+  }
+
+  .schedule-item:last-child {
+    border-bottom: none;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+
+  .section {
+    padding: 4.5rem 0;
+  }
+
+  .container, .container-narrow {
+    padding: 0 1.25rem;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--kf-bg);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.5rem 2rem;
+    gap: 1.75rem;
+    transform: translateX(100%);
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: var(--kf-shadow-lg);
+    overflow-y: auto;
+  }
+
+  .nav-menu.open {
+    transform: translateX(0);
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: var(--kf-font-serif);
+  }
+
+  .mobile-menu-toggle {
+    display: block;
+  }
+
+  .hero-title {
+    font-size: 2.25rem;
+  }
+
+  .hero-fullscreen {
+    padding: 7rem 1.25rem 4rem;
+  }
+
+  .grid-2, .grid-3, .grid-4 {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .schedule-banner {
+    padding: 1.75rem;
+    margin-top: -2rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .scripture-box {
+    padding: 1.75rem 1.5rem;
+  }
+
+  .giving-bank-card {
+    padding: 1.75rem;
+  }
+
+  .bank-detail-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+  }
+}

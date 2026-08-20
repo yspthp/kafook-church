@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="worGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1b2836" />
+      <stop offset="100%" stop-color="#0f161e" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#worGrad)" />
+  <g transform="translate(400, 220)">
+    <circle cx="0" cy="0" r="160" fill="none" stroke="#9c8059" stroke-width="1.5" opacity="0.4" />
+    <rect x="-6" y="-90" width="12" height="180" rx="3" fill="#dfd2b8" />
+    <rect x="-50" y="-45" width="100" height="10" rx="3" fill="#dfd2b8" />
+  </g>
+  <text x="400" y="400" font-family="'Noto Serif TC', serif" font-size="20" fill="#dfd2b8" text-anchor="middle" letter-spacing="4">心靈與誠實的敬拜</text>
+</svg>

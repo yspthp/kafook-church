@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#ffffff" rx="12" stroke="#e6e2d8" stroke-width="2" />
+  <g fill="#1c2a38">
+    <rect x="25" y="25" width="45" height="45" rx="4" />
+    <rect x="33" y="33" width="29" height="29" fill="#ffffff" rx="2" />
+    <rect x="39" y="39" width="17" height="17" rx="2" />
+
+    <rect x="130" y="25" width="45" height="45" rx="4" />
+    <rect x="138" y="33" width="29" height="29" fill="#ffffff" rx="2" />
+    <rect x="144" y="39" width="17" height="17" rx="2" />
+
+    <rect x="25" y="130" width="45" height="45" rx="4" />
+    <rect x="33" y="138" width="29" height="29" fill="#ffffff" rx="2" />
+    <rect x="39" y="144" width="17" height="17" rx="2" />
+
+    <!-- FPS Center Marker -->
+    <rect x="85" y="85" width="30" height="30" rx="4" fill="#9c8059" />
+    <text x="100" y="105" font-family="'Noto Serif TC', sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">FPS</text>
+
+    <!-- Matrix dots -->
+    <rect x="80" y="30" width="10" height="10" />
+    <rect x="100" y="45" width="10" height="10" />
+    <rect x="35" y="85" width="10" height="10" />
+    <rect x="55" y="100" width="10" height="10" />
+    <rect x="140" y="85" width="10" height="10" />
+    <rect x="155" y="105" width="10" height="10" />
+    <rect x="85" y="135" width="10" height="10" />
+    <rect x="105" y="155" width="10" height="10" />
+    <rect x="135" y="145" width="10" height="10" />
+    <rect x="155" y="135" width="10" height="10" />
+  </g>
+  <text x="100" y="188" font-family="sans-serif" font-size="9" fill="#666f7a" text-anchor="middle">FPS ID: 164535320</text>
+</svg>

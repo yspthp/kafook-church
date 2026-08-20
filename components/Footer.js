@@ -14,7 +14,7 @@ export function createFooter() {
               「你們要將當納的十分之一全然送入倉庫，使我家有糧...」(瑪拉基書 3:10)<br>
               扎根觀塘，共建神家。在新堂的恩典旅程中，同心敬拜、彼此服事、傳揚基督。
             </p>
-            <p style="font-size: 0.85rem; color: var(--kf-secondary-light);">
+            <p style="font-size: 0.85rem; color: var(--kf-secondary-light); letter-spacing: 0.1em;">
               Together We Build in Faith 踏上信心之旅
             </p>
           </div>
@@ -44,7 +44,7 @@ export function createFooter() {
                 <strong>午堂崇拜</strong><br>主日上午 11:30
               </li>
               <li style="color: rgba(255,255,255,0.85); font-size: 0.88rem; margin-top: 0.75rem;">
-                <strong>少年崇拜</strong><br>逢週六 下午 05:00
+                <strong>少年崇拜</strong><br>逢週六 下午 05:30 (17:30)
               </li>
             </ul>
           </div>
@@ -72,7 +72,7 @@ export function createFooter() {
             © 2026 五旬節聖潔會迦福堂有限公司 Ka Fook Pentecostal Holiness Church Ltd. 版權所有.
           </div>
           <div>
-            靜謐現代風格試作版 · 堂址面積 3,813 呎
+            靜謐現代風格 · 堂址面積 3,813 呎
           </div>
         </div>
       </div>
